@@ -26,7 +26,7 @@ function main() {
     
     if [[ "$#" -ne 1 ]]; then
       echo "Error: No domain name argument provided"
-      echo "Usage: ./create-cert.sh local.example.com"
+      echo "Usage: ./ez-dev-cert.sh local.example.com"
       exit 1
     fi
 
